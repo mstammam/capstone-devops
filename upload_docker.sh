@@ -12,7 +12,7 @@ dockerpath="mtammam/capstone"
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker image tag udacity-devops $dockerpath
+docker image tag html-server-image:v1 $dockerpath
 # Step 3:
 # Push image to a docker repository
 docker image push $dockerpath
