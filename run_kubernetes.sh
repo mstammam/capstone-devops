@@ -9,7 +9,7 @@ dockerpath="mtammam/capstone"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run udacity-devops --image=$dockerpath --port=80
+kubectl run html-server-image --image=$dockerpath --port=80
 
 # Step 3:
 # List kubernetes pods
