@@ -2,7 +2,7 @@
 
 ## Project Overview
 
- In this project, I run through the following topics in order to complete the project.
+ In this project, I used rolling deployment and I run through the following topics in order to complete the project.
 
 1)	Working in AWS
 2)	Using Jenkins to implement Continuous Integration and Continuous Deployment 
@@ -69,5 +69,5 @@ Deploy Container
 -----------------------------------------------------------------------------------------
 ##10## Connect pipeline with github account.
 ##11## Add pipeline trigger to trigger the pipeline every time github updated (1 min. interval)
-##12## Test your code 
+##12## Test your pipeline.  
 
