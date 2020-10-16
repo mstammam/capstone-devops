@@ -27,6 +27,8 @@ pipeline {
       steps {
         withAWS(region:'us-east-2',credentials:'aws-devops-credentials') {
           sh 'aws eks update-kubeconfig --name tammam-capstone-cluster'
+          sh 'hostname'
+          sh 'which kubectl'
           sh 'kubectl config use-context arn:aws:eks:us-east-2:796848775042:cluster/tammam-capstone-cluster'
           sh 'kubectl apply -f deployment/deployment.yml'
 
